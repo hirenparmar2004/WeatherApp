@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+
+    <script src="https://kit.fontawesome.com/8e7a357deb.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <div class="main-container">
+
+        <div class="weather">
+            <nav>
+                <div class="search">
+                    <input id="searching" type="search" placeholder="Search...">
+                </div>
+
+                <div class="search-logo" onclick="dataFunction()">
+                    <i id="" class="fa-solid fa-magnifying-glass"></i>
+                </div>
+            </nav>
+            <div id="error">
+                <p></p>
+            </div>
+            <div id="afterNav">
+                <div class="sun-img">
+                     <img id="sunImg" src="./img/sun.png" alt=""> 
+                </div>
+                <div class="text">
+                    <h1 id="temprature">22°c</h1>
+                    <h2 id="cityname">CityName</h2>
+                </div>
+
+                <div class="footer">
+                    <div class="humidity-div">
+
+                        <i class="fa-solid fa-sliders"></i>
+
+                        <div class="humidity">
+                            <h1 id="Humidity">53%</h1>
+                            <h2>Humidity</h2>
+                        </div>
+
+                    </div>
+
+                    <div class="wind-div">
+
+                        <i class="fa-solid fa-sliders"></i>
+
+                        <div class="wind-speed">
+                            <h1 id="windspeed">5.66km/h</h1>
+                            <h2>wind speed</h2>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+
+    </div>
+
+    <script src="index.js"></script>
+    
+</body>
+
+</html>
